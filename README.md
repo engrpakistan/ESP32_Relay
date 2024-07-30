@@ -31,7 +31,9 @@ Below is the simple and complete witing of this project.To power ESP32 just plug
 Start with designing the web page.
 
 To display images on a ESP32 webserver you need to install LittleFS.
+
 Visit this for full tutorial 
+
 https://randomnerdtutorials.com/display-images-esp32-esp8266-web-server/
 
 ![image](https://github.com/user-attachments/assets/89041f3b-8cc5-4379-8648-ac49236cc7fa)
