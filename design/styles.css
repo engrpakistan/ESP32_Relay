@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#banner {
+ 
+  width: 100vw; /* 100% of the viewport width */
+  height: 300px; /* Fixed height of 300px */
+  padding-bottom: 20px;
+  object-fit: cover; /* Ensures the image covers the width without distortion */
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+#bulb, #fan {
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+
+h1, h2 {
+  color: #FC0A7F; /* Bright pink color */
+}
+
+/* Toggle switch styles */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #FC0A7F;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Subscribe button styles */
+#sub {
+  padding-top: 10px;
+  height: 60px;
+  width: 150px; /* Adjusted width for better proportions */
+  background-color: #FED611; /* Bright yellow background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 12px; /* Rounded corners */
+  font-size: 16px; /* Adjusted font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+#sub:hover {
+  background-color: white; /* Change background to white on hover */
+  color: #FED611; /* Change text to yellow on hover */
+}
