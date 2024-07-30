@@ -1,5 +1,6 @@
 This repo is about a small demo of home automation.This project will use ESP32 and a 2 channel relay module.To control switching of the relay module a stunning web server is designed and uploaded on ESP32.In return esp32 gives an IP address.
 Copy the IP address and paste on any device that have a web browser.The web server will be revealed on the device and than you may control anything in my case I controlled a fan and studio lights.
+
 WATCH FULL TUTORIAL VIDEO --> https://www.youtube.com/watch?v=ny62Uwfm9VE&t=8s
 
 ![Untitled design (3)](https://github.com/user-attachments/assets/ceeda2a0-b4fc-4861-97f4-e0b07665aaee)
@@ -29,7 +30,9 @@ Below is the simple and complete witing of this project.To power ESP32 just plug
 
 Start with designing the web page.
 
-To display images on a ESP32 webserver you need to install LittleFS. Visit this for full tutorial https://randomnerdtutorials.com/display-images-esp32-esp8266-web-server/
+To display images on a ESP32 webserver you need to install LittleFS.
+Visit this for full tutorial 
+https://randomnerdtutorials.com/display-images-esp32-esp8266-web-server/
 
 ![image](https://github.com/user-attachments/assets/89041f3b-8cc5-4379-8648-ac49236cc7fa)
 
